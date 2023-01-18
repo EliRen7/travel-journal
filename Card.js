@@ -3,7 +3,7 @@ import data from './data'
 
 export default function Card(props) {
     return(
-        <>
+        <div>
         <div className="card">
         <img src={`../images/${props.item.imageUrl}`} className="card-img"/>
         <div className="card-info">
@@ -16,6 +16,6 @@ export default function Card(props) {
             <p className="card-description">{props.item.description}</p>
         </div>
         </div>
-        </>
+        </div>
     )
 }
