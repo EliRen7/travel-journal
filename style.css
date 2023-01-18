@@ -32,8 +32,8 @@ body{
     height: 100%;
     display: grid;
     grid-template-columns: auto auto;
-    gap: 15px;
-    margin: 40px;
+    gap: 60px;
+    margin: 60px;
 }
 
 .card-info{
@@ -41,8 +41,8 @@ body{
 }
 
 .card-img{
-    width: 125px;
-    height: 168px;
+    width: 250px;
+    height: 350px;
     border-radius: 5px;
     object-fit: cover;
 }
