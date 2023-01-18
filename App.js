@@ -13,10 +13,10 @@ export default function App() {
         )
     })
     return(
-        <>
+        <div>
              <NavBar />
              {cards}
-        </>
+        </div>
     )
 }
 
