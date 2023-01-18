@@ -31,7 +31,6 @@ body{
     width: 300px;
     height: auto;
     display: grid;
-    justify-content: center;
     grid-template-columns: auto auto;
     gap: 60px;
     margin: 60px;
