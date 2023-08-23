@@ -1,19 +1,47 @@
-# Travel Journal
+# Travel Journal Project
 
-Quick start:
+This is a travel journal project developed with React. It displays a collection of travel experiences using cards with information about each location.
 
-```
-$ yarn # npm install
-$ yarn build # npm run build
-````
+## Table of Contents
 
-## Development
+- [Demo](#demo)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
 
-Run Webpack in watch-mode to continually compile the JavaScript as you work:
+## Demo
 
-```
-$ yarn watch # npm run watch
-```
+[Checkout the live demo](https://melodious-gecko-38717c.netlify.app/)
+
+## Features
+
+- Display travel cards: Each card represents a travel location with an image, title, date, location, description, and a link to view the location on Google Maps.
+- Responsive Design: The project is designed to be responsive, adapting to different screen sizes.
+
+## Installation
+
+1. Clone the repository: `git clone https://github.com/EliRen7/travel-journal.git`
+2. Navigate to the project directory: `cd travel-journal`
+3. Install dependencies: `npm install`
+
+## Usage
+
+1. Replace the `data.js` file in the `src` directory with your own travel data.
+2. Place your travel images in the `src/images` directory.
+3. Customize the components and styles as needed.
+4. Run the development server: `npm start`
+
+## Contributing
+
+Contributions are welcome! If you find any issues or want to enhance the project, feel free to create a pull request.
+
+1. Fork the project.
+2. Create a new branch.
+3. Make your improvements and commit changes.
+4. Push the branch and open a pull request.
+
 
 ## About Scrimba
 
